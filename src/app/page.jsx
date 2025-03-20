@@ -8,18 +8,6 @@ export default function Home() {
           <Typography variant="h1" color="amber" className="font-bold">
             🚀 Bienvenidos a la Misión: Red Planet
           </Typography>
-          <div>
-            <Typography variant="paragraph" className="text-gray-300">
-              Nuestra misión es explorar y colonizar Marte. La humanidad está
-              dando su primer gran paso hacia el planeta rojo.
-            </Typography>
-            <Typography variant="small" className="mt-2 italic text-gray-400">
-              Fecha estimada de lanzamiento: 15 de julio de 2030.
-            </Typography>
-          </div>
-          <Button color="amber" size="lg" className="mt-1">
-            Unirse a la Misión
-          </Button>
         </CardBody>
       </Card>
     </main>
