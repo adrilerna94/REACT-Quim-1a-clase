@@ -1,4 +1,5 @@
 import { Button, Card, CardBody, Typography } from "@/components/ui";
+import { WelcomeMessage } from "./welcome/page";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
           <Typography variant="h1" color="amber" className="font-bold">
             🚀 Bienvenidos a la Misión: Red Planet
           </Typography>
+          <WelcomeMessage name='Adqui'/>
         </CardBody>
       </Card>
     </main>
